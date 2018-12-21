@@ -1,0 +1,14 @@
+{
+	"name": "Full Korean language",
+	"description": "We support full Korean language.",
+	"version": "1.0.0",
+	"author": "Lovefield",
+	"compatibleMinorVersions": [
+		6
+	],
+	"unloadable": true,
+	"file": "korean.json",
+	"languages": [
+		"lang/korean"
+	]
+}
