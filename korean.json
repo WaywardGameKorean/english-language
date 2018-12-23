@@ -508,11 +508,11 @@
 			"aloeVera": ["aloe vera", "A succulent evergreen plant, known for its medicinal and antiseptic properties and its sharpened thick leaves."]
 		},
 		"doodadGroup": {
-			"litCampfire": "lit campfire",
-			"litFurnace": "lit furnace",
-			"litKiln": "lit kiln",
-			"litWaterStill": "lit water still",
-			"anvil": "anvil"
+			"litCampfire": "타고있는 캠프파이어",
+			"litFurnace": "불이 붙은 용광로",
+			"litKiln": "불이 붙은 가마",
+			"litWaterStill": "정제중인 증류기",
+			"anvil": "모루"
 		},
 		"doodadItem": {
 			"leafBedroll": [null, "A placed provisional bed with poor insulation and scratchy leaves, used for sleeping or resting."],
