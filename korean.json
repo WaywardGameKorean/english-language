@@ -415,10 +415,10 @@
 			"custom": ["Custom", "Customize your game, choosing from a large set of difficulty modifiers."]
 		},
 		"doodad": {
-			"woodenDoor": ["wooden door", "A sturdy door, used to keep unwanted creatures out."],
-			"woodenFence": ["wooden fence", "A set of panels, usually used to keep creatures inside."],
-			"woodenWall": ["wooden wall", "A wall crafted by connecting wooden logs together."],
-			"clayBrickWall": ["clay brick wall", "A wall made from fired clay bricks."],
+			"woodenDoor": ["나무문", "A sturdy door, used to keep unwanted creatures out."],
+			"woodenFence": ["나무울타리", "A set of panels, usually used to keep creatures inside."],
+			"woodenWall": ["나무벽", "A wall crafted by connecting wooden logs together."],
+			"clayBrickWall": ["점토벽", "A wall made from fired clay bricks."],
 			"sandstoneWall": ["sandstone wall", "A robust wall created from sandstone."],
 			"stoneWall": ["stone wall", "A hardy wall built from rocks."],
 			"setExplosiveTrap": ["set explosive trap", "An elaborate trap, ready to be triggered and exploded by touch."],
