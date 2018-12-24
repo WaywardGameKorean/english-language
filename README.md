@@ -1,2 +1,2 @@
-# English Language
-These are the full English files for Wayward. They can be used as a reference to translate the game. An example of it's usage can be found in the [Pirate Language mod](https://github.com/WaywardGame/piratelanguage).
+# 한국어 번역
+wayward에서 제공하는 English Language 저장소를 이용해 만든 한국어 번역 파일입니다.
