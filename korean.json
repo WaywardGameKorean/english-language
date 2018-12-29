@@ -764,7 +764,7 @@
 			"sandstoneFlooring": ["사암 바닥", "사암을 일정한 간격으로 정렬해서 만든 바닥재입니다."],
 			"spiderSilk": ["거미줄", "거미에게서 얻을 수 있는 섬세하고 강한 명주실입니다.<br>끈을 만드는데 사용할 수 있습니다."],
 			"animalFat": ["동물성 기름", "끈적끈적한 면도크림 같은 동물 지방입니다.<br>연료로 매우 유용합니다."],
-			"animalFatTorch": ["animal fat torch", "A torch; wrapped in rendered animal fat, producing a long-lasting light source."],
+			"animalFatTorch": ["동물 기름 횃불", "동물성 기름을 둘러서 만든 횃불입니다.<br>오랜 시간 동안 타며 주변을 밝혀줍니다."],
 			"clayFlakes": ["clay flakes", "Dried shavings of clay. Created by shaving clay and drying over a period of time."],
 			"greenSand": ["green sand", "A form of malleable sand made with clay, used to make molds for metal casting."],
 			"oldInstructionalScroll": ["{0?{0}:old} instructional scroll",
