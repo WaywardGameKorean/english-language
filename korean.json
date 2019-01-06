@@ -1318,11 +1318,7 @@
 			"dayQuarter3": "그것은 현재 3분기입니다.",
 			"dayQuarter4": "그것은 현재 4분기입니다.",
 			"dealtNoDamageToYou": "{0}이(가) 당신에게 피해를 주지 못했습니다.",
-<<<<<<< HEAD
-			"deathBy": "{0}에 의해",
-=======
 			"deathBy": "{0}",
->>>>>>> 60090a6b70157fd22544d990259c89e093d303e9
 			"deathByBleeding": "출혈에 의해",
 			"deathByBurning": "화상에 의해",
 			"deathByChallengeWinner": "자연 도태되어",
