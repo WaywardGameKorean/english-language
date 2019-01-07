@@ -1804,7 +1804,7 @@
 			"teleported": "텔레포트 했습니다.",
 			"thanksBuying": "고맙네! {0}포인트로 {1}을(를) 가져가게.",
 			"thanksSelling": "고맙네, {0}은(는) {1}포인트를 부여하지.",
-			"the": "the {0}",
+			"the": "{0}",
 			"theCreature": "{0?{0}:생명체}",
 			"theirFist": "주먹",
 			"thePlant": "이 식물",
