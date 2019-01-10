@@ -1546,7 +1546,7 @@
 			"moveAllToFacingContainer": "전부 바라보는 보관함으로 옮기기",
 			"moveAllToInventory": "전부 소지품으로 옮기기",
 			"moveAllToLastOpenedContainer": "마지막으로 열린 보관함으로 전부 옮기기",
-			"moveAllToOpenedContainer": "전부 열려있는 보관함으로 옮기기",
+			"moveAllToOpenedContainer": "열려있는 보관함으로 전부 옮기기",
 			"movedItem": "{1}으로 {0}을(를) 이동시켰습니다.",
 			"movedItems": "{1}으로 {0}을(를) 이동시켰습니다.",
 			"moveOverTrapButDoNotSetOff": "You move over the trap, but do not set it off.",
@@ -2111,7 +2111,126 @@
 			"highPerformance": "고성능"
 		},
 		"quest": {
-			"challenge": ["도전", ""]
+			"challenge": ["도전", ""],
+			"modStarterQuestWelcome": [
+				"환영합니다",
+				"{#ba9999:Wayward 에 처음 오신 거라면, 이 //튜토리얼 퀘스트//가 생존하기 위한 기본 지식을 알려 줄 것입니다.\n이 퀘스트를 진행하는 데는 약 30 - 60분이 소요됩니다.}\n\n{Bindings:DialogQuests}키로 이 창을 열거나 닫을 수 있습니다.\n\n\"//퀘스트 완료//\"를 눌러 퀘스트를 진행하세요."
+			],
+
+			"modStarterQuestGearUp": [
+				"준비하기", 
+				"{#ba9999:생명체를 공격하거나 자동으로 채집하는 행동은 당신이 장비한 아이템에 기반합니다. 아이템을 착용해 봅시다.}\n\n1. 장비 {link(Menu.HelpArticle.Interface):창}은 {Bindings:DialogEquipment}키를 누르거나 화면의 장비 아이콘을 클릭해서 열 수 있습니다.\n\n2. 소지품에 있는 아이템을 장비 슬롯으로 드래그엔 드롭 해서 장비할 슬롯을 선택할 수 있습니다.\n\n또는, {Bindings:GameItemEquipToggle} 키를 눌러 마우스가 가리키고 있는 아이템을 장비할 수 있습니다.\n\n{link(Menu.HelpArticle.HeldItems):아이템 잡는법 도움말 더보기}"
+			],
+
+			"modStarterQuestQuickslots": [
+				"아이템 사용 & 퀵슬롯", 
+				"{#ba9999:모든 아이템에는 언제든지 행동할 수 있는 행동 메뉴가 있습니다.}\n\n{Bindings:GameItemMenu}을 통해 행동 메뉴를 열 수 있습니다.\n\n{#ba9999:Using actions in this way can be cumbersome. To bind an item's action to a single keypress, you can use Quickslots.}\n\n- Drag and drop an item into a quickslot.\n\n- OR use the \"//Add to Quickslot//\" action on the item.\n\n- OR use one of the \"Quickslot Toggle\" bindings on an item, such as {Bindings:GameQuickSlotToggle1}, {Bindings:GameQuickSlotToggle2}, or {Bindings:GameQuickSlotToggle3}.\n\n{#ba9999:Once the item is in the quickslot, it can be used with its respective binding, which is listed underneath the quickslot.}\n\nYou can change which action it executes by using {Bindings:GameItemMenu} on the quicklot and clicking the \"x\" next to the action of your choice."
+			],
+
+			"modStarterQuestResourceGathering": [
+				"자원 수집",
+				"Now that you have something equipped and quickslotted, you can try gathering some resources.\n\nMake sure you have an item that you can gather with quickslotted and the default action is set to \"//Gather//\". The previous quest explained how to do this in more detail. Alternatively, you can also enable \"//Auto Gather/Harvest//\" in the options to automatically gather resources by walking into them.\n\nThere are different environments in Wayward; some harsher than others. If you are in a desert, you may have to venture north/north-east to find different resources. You may even have to venture across large bodies of water. Find a lush green forest or dead bushes to gather the branches. Find large rocks on the ground (in piles), or by gathering them from a gray-colored mountain side."
+			],
+
+			"modStarterQuestCrafting": [
+				"제작",
+				"To survive, you will need to craft new items from the resources you gather. Press {Bindings:DialogCrafting} to open the crafting window. It will show you what you can make from the items in your inventory. Start by making a sharp rock which is used in many crafting recipes. Not every attempt to craft an item is successful, and the chance of success depends on the skill level of the item against your crafting skills.\n\nIf your crafting menu is too small, you can adjust it in size and position by dragging it around or dragging the corners to resize."
+			],
+
+			"modStarterQuestDismantle": [
+				"분해",
+				"Not all items are crafted, some are dismantled from other items. A branch for example can be dismantled into twigs, leaves, stripped bark, and a wooden pole; a wealth of resources.\n\nDismantling items can be done through the crafting menu by clicking on the \"//Dismantle//\" tab. You will see a listing of items that can be dismantled. Hovering over each will show what they will be dismantled into. Alternatively, you can dismantle items using {Bindings:GameItemMenu} on them in your inventory and selecting \"//Dismantle//\"."
+			],
+
+			"modStarterQuestChangeHands": [
+				"왼손/오른손 사용하기",
+				"By default, you will use both hands to automatically attack or gather/harvest (if you have \"//Auto Gather/Harvest//\" enabled). You can enable and disable each hand. This is useful when you only want to use a certain weapon for attacking/gathering. This can also prevent injury to your bare hands. You can toggle your hands using the select boxes on the bottom of the equipment menu (or through the use of the {Bindings:GameHandToggleLeft} and {Bindings:GameHandToggleRight} keybinds."
+			],
+
+			"modStarterQuestHunting": [
+				"사냥",
+				"With crafting and taming knowledge under your belt, it's time to learn another important survival lesson: Hunting! Find a creature with meat and slay it. You can carve its corpse after dealing the final blow, using a \"//Sharpened//\" item while facing it by using \"//Carve//\" from the item's menu. You can also quickslot it and use a hotkey to quickly carve. Creatures with some form of raw meat include giant rats, spiders, chickens, rabbits, and more."
+			],
+
+			"modStarterQuestWoodenPoles": [
+				"나무 막대기",
+				"You will need to start a fire to cook the raw meat if you want to eat it safely. Your first order of business is to gather the materials used to create your fire-making device. Dismantle enough branches or logs to get a least two \"//Wooden Poles//\"."	
+			],
+
+			"modStarterQuestHandDrill": [
+				"핸드 드릴",
+				"At this point, you will have unlocked a new crafting recipe called \"//Hand Drill//\", a primitive and easy-to-craft device that makes fire. You unlock new crafting recipes by having one of each required items in your inventory. Go ahead and craft it!"
+			],
+
+			"modStarterQuestKindlingTinder": [
+				"불쏘시게 & 부싯깃",
+				"The final items needed to start a fire are kindling and tinder. Many items are considered kindling, such as twigs, tree bark, and wooden dowels (dismantled from wooden poles). Many items are also considered tinder, such as wooden shavings (dismantled from twigs or wooden dowels), animal fur, leaves, and more.\n\nCraft, dismantle, or find kindling and tinder!"
+			],
+
+			"modStarterQuestCampfire": [
+				"캠프파이어",
+				"You could technically start a fire at this moment. But to make a proper, enclosed fire-source, you'll want to make either a \"//Stone Campfire//\" or \"//Sandstone Campfire//\". You'll need quite a few rocks or sandstone for this endeavor.\n\nWith some items, you will be able to build them and temporarily affix them to the world. These objects that are attached/placed on tiles, are called \"//Doodads//\". Using {Bindings:GameItemMenu} on the campfire in your inventory will give you the option to \"//Build//\" it. Do so now, facing a valid tile."
+			],
+
+			"modStarterQuestFire": [
+				"불이야!",
+				"With your hand drill, select the \"//Start Fire//\" option from the item's menu while facing the campfire. Doing so will create a fire contained inside of it. You don't always get lucky when making a fire with low camping skills. It's possible that you may need to re-gather and craft some more wooden shavings (or any other tinder item, such as, leaves, animal fur, or grass blades) and kindling if you fail too many times.\n\nBe careful not to step in your fire!"
+			],
+
+			"modStarterQuestStokeFire": [
+				"불에 연료 넣기",
+				"Your fire could probably use more fuel as well. To add fuel to a fire, use {Bindings:GameItemMenu} on an item and choose the \"//Stoke Fire//\" action. This action is available on many items, including logs, branches, and more.\n\nYou can check the status of the fire by hovering your mouse over it. If you have tool-tips disabled, you can also check the status by using {Bindings:GameInspect} while hovering over it."
+			],
+
+			"modStarterQuestCooking": [
+				"불을 이용한 요리",
+				"Now that you have a proper fire going, you can cook the meat! The craft recipe will be unlocked for the cooked form of this meat. You can even eat it after you are done if you are hungry, or save it for later.\n\nA skewer is an item grouping that contains a wide variety of items including branches, wooden poles, spears, and more!"
+			],
+
+			"modStarterQuestTaming": [
+				"생명체 길들이기",
+				"Have you encountered a creature yet? Being counter-aggressive to the hostile island creatures is sometimes not the best option, especially if you are ill-prepared or ill-equipped. There's multiple ways to tame a creature. The most effective way to tame a creature and have it fight for you is to keep them fed and happy. To accomplish this, you can do one of the following actions:\n\n1. Facing a creature, choose the \"//Offer//\" from an item's menu. Certain creatures will like different items. You may have to experiment with this.\n2. Drop an item on the ground and have the creature walk over it. If they want the item, they will become tamed.\n3. Facing a creature, open the actions menu with {Bindings:GameActions} and choose \"//Tame//\". Taming in this manner is difficult, especially at lower skill levels."
+			],
+
+			"modStarterQuestExtraStorage": [
+				"추가 보관함",
+				"Feeling a bit heavy? You may want to start thinking about long-term storage that is outside of your inventory. The easiest storage container to craft is a \"//Wooden Chest//\". You will need to gather both logs and wooden dowels. To get wooden dowels, you will need to dismantle wooden poles, which are first dismantled from branches.\n\nIf you are looking for further weight reduction in your inventory, you may consider crafting bags or backpacks (using leather) to reduce inventory weight by 50% for all items that are kept inside them."
+			],
+
+			"modStarterQuestString": [
+				"밧줄 & 끈",
+				"A very common resource for making many items in Wayward is \"//String//\". By combining two items that are considered \"//Cordage//\", you can craft string. The cordage group is very diverse and includes things such as stripped bark (dismantled from branches), plant roots, seaweed, and many more."
+			],
+
+			"modStarterQuestLeather": [
+				"가죽",
+				"Venture forth and find a creature with a pelt. Creatures with pelts include giant rats, rabbits, grey wolves, and bears. Be very careful with the latter two - you may have to improve your combat skills or craft armor if these are too much. Never be afraid to run from a losing battle. Once you've killed one of these creatures, carve its corpse to get the animal pelt. Dismantle the pelt to remove the fur and gain the cleaned leather hide.\n\nTo make leather, you need to tan it with a special powder called tannin. You'll need to make something to grind your tannin with. Mortar and pestles can be crafted with smooth rocks, logs, or even sandstone. After you craft the mortar and pestle, you can grind down tree bark into tannin.\n\nWith tannin and a cleaned leather hide, you can craft \"//Tanned Leather//\" from the crafting window."
+			],
+
+			"modStarterQuestWaterskin": [
+				"가죽 물통",
+				"Are you a bit parched? Time to think about water desalination for turning seawater into drinkable, clean water. First, you'll need to make a \"//Waterskin//\" to hold this water.\n\nCollect a needle by either finding cactus needles (carving a cactus) or by progressively sharpening down bones via crafting (bone to bone pole, to sharpened bone, to bone needle). You can also dismantle bone fragments into bone needles directly.\n\nCraft the waterskin with the tanned leather, strings, and needle you've collected."
+			],
+			
+			"modStarterQuestWaterStill": [
+				"증류기",
+				"Making the container was the hard part. You should now have most things you need to create a still for desalinating water. One last hurdle remains. Gather the following resources to be able to craft a \"//Stone Water Still//\" or \"//Sandstone Water Still//\".\n\nAfter gathering all those resources, you can craft the still. You'll use this device to pour the seawater into, boil and steam-drip the desalinated water into the container.\n\nJust like with the campfire previously, you'll be able to \"//Build//\" the water still facing a valid tile from the item's menu."
+			],
+			
+			"modStarterQuestFillStill": [
+				"증류기 채우기",
+				"To test out your new water still, grab some water from the ocean. With another empty container in your inventory, choose the \"//Gather Water//\" option while facing the ocean with your container.\n\nWhile still facing the water still, choose the \"//Pour//\" option from your container of seawater's item menu. This will pour the liquid into the water still."
+			],
+			
+			"modStarterQuestDesalination": [
+				"담수화",
+				"You'll need to light the water still on fire so the water can begin to boil and steam. Which means you'll need to find or craft more tinder and kindling. Hopefully you still have durability on your hand drill as well. If not, you'll need to craft another one. After it's on fire, you'll have to wait until the fire goes out or reduces to embers before you can collect the water.\n\nWhen the process has completed, you can choose the \"//Gather Water//\" option from your empty container while facing the still. You will gather the fresh, desalinated water, ready to drink as desired.\n\nYou will only need to complete a process such as this for drinking sea or ocean water. Note that desalination is an advanced technique and may not be needed if you have found fresh water sources. Fresh water can be gathered and purified over a fire, without a still."
+			],
+			
+			"modStarterQuestSurvivalistTraining": [
+				"살아남기 위한 훈련",
+				"That's it! You should now have some basic knowledge on how to survive in Wayward. With enough learning and skill, you'll eventually be able to thrive and prosper.\n\nTreasure, you remember something about treasure..."
+			]
 		},
 		"questRequirement": {
 			"sailToCivilization": "문명으로 돌아가기",
@@ -2121,12 +2240,19 @@
 			"learnSkill": "배우기 {0}: {1}/{2}%",
 			"learnSkills": "모든 기술 배우기: {0}/{1}%",
 			"learnAnySkill": "기술 하나 배우기: {1}/{2}%{1? ({0} at {1}%)}",
-			"equip": "착용 {0} in {1}",
+			"equip": "{1}에 {0}을(를) 착용",
 			"craft": "제작 {0}: {1}/{2}",
 			"dismantle": "분해하기 {0}: {1}/{2}",
 			"build": "건설 {0}",
 			"tameCreature": "{0} 길들이기: {1}/{2}",
-			"tameCreatures": "생명체 길들이기: {0}/{1}"
+			"tameCreatures": "생명체 길들이기: {0}/{1}",
+			"modStarterQuestQuickslot": "퀵슬롯에 아이템 등록하기",
+			"modStarterQuestChangeHand": "사용할 손 바꾸기",
+			"modStarterQuestLightCampfire": "캠프 파이어에 불 붙이기",
+			"modStarterQuestStokeCampfire": "캠프 파이어에 연료 넣기",
+			"modStarterQuestFillStill": "증류기에 물 채우기",
+			"modStarterQuestLightWaterStill": "증류기에 불 붙이기",
+			"modStarterQuestGatherFromWaterStill": "증류기에서 식수 받기"
 		},
 		"saveSlotSort": {
 			"saveTime": "마지막 플레이",
@@ -2302,7 +2428,7 @@
 			"gameDialogQuestsRequirements": "조건",
 			"gameDialogQuestsActiveQuests": "진행중인 퀘스트",
 			"gameDialogQuestsCompletedQuests": "완료한 퀘스트들",
-			"gameDialogQuestsCompleteQuest": "퀘스트 성공",
+			"gameDialogQuestsCompleteQuest": "퀘스트 완료",
 			"gameTooltipShowMoreInformation": "더 보기: {Bindings:GameMoreInformation}",
 			"gameTooltipLegendaryMaxWeightLabel": "최대 무게",
 			"gameStatsPercentage": "{0}%",
