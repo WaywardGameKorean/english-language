@@ -1185,7 +1185,7 @@
 			"addedFuelToFire": "불에 연료를 넣었습니다. 불길이 강해집니다!",
 			"addedFuelToTorch": "횃불에 연료를 추가했습니다.",
 			"addFuel": "연료 넣기",
-			"addToQuickslot": "퀵슬록에 등록 ",
+			"addToQuickslot": "퀵슬롯에 등록 ",
 			"advanced": "고급",
 			"all": "전부",
 			"allEquipmentUnEquipped": "모든 장비를 벗었습니다.",
@@ -2124,12 +2124,12 @@
 
 			"modStarterQuestQuickslots": [
 				"아이템 사용 & 퀵슬롯", 
-				"{#ba9999:모든 아이템에는 언제든지 행동할 수 있는 행동 메뉴가 있습니다.}\n\n{Bindings:GameItemMenu}을 통해 행동 메뉴를 열 수 있습니다.\n\n{#ba9999:Using actions in this way can be cumbersome. To bind an item's action to a single keypress, you can use Quickslots.}\n\n- Drag and drop an item into a quickslot.\n\n- OR use the \"//Add to Quickslot//\" action on the item.\n\n- OR use one of the \"Quickslot Toggle\" bindings on an item, such as {Bindings:GameQuickSlotToggle1}, {Bindings:GameQuickSlotToggle2}, or {Bindings:GameQuickSlotToggle3}.\n\n{#ba9999:Once the item is in the quickslot, it can be used with its respective binding, which is listed underneath the quickslot.}\n\nYou can change which action it executes by using {Bindings:GameItemMenu} on the quicklot and clicking the \"x\" next to the action of your choice."
+				"{#ba9999:모든 아이템에는 언제든지 행동할 수 있는 행동 메뉴가 있습니다.}\n\n{Bindings:GameItemMenu}을 통해 행동 메뉴를 열 수 있습니다.\n\n{#ba9999:행동 메뉴를 열어서 사용하는 것은 조금 번거롭습니다.\n퀵슬롯에 등록을 하면, 지정해둔 키를 통해서 아이템에 대한 행동을 사용할 수 있습니다.}\n\n- 퀵슬롯에 아이템 끌어다 놓기.\n\n- \"//퀵슬롯에 등록//\"행동 메뉴 사용하기.\n\n- \"퀵슬롯에 등록/해제\"키 사용하기.({Bindings:GameQuickSlotToggle1}, {Bindings:GameQuickSlotToggle2}, {Bindings:GameQuickSlotToggle3})\n\n{#ba9999:아이템을 퀵슬롯에 등록했다면, 퀵슬롯 각각에 설정된 키를 통해서 사용할 수 있습니다.}\n\n등록된 아이템은 {Bindings:GameItemMenu}을 통해 원하는 행동 메뉴를 정할 수 있습니다.\n\"x\"표시된 부분을 클릭해 체크 모양이 된다면 퀵슬롯 키를 누를 때 마다 해당 해동을 합니다."
 			],
 
 			"modStarterQuestResourceGathering": [
 				"자원 수집",
-				"Now that you have something equipped and quickslotted, you can try gathering some resources.\n\nMake sure you have an item that you can gather with quickslotted and the default action is set to \"//Gather//\". The previous quest explained how to do this in more detail. Alternatively, you can also enable \"//Auto Gather/Harvest//\" in the options to automatically gather resources by walking into them.\n\nThere are different environments in Wayward; some harsher than others. If you are in a desert, you may have to venture north/north-east to find different resources. You may even have to venture across large bodies of water. Find a lush green forest or dead bushes to gather the branches. Find large rocks on the ground (in piles), or by gathering them from a gray-colored mountain side."
+				"이제 당신은 퀵슬롯에 등록하거나 장비할 수 있습니다, 이제 자원을 얻기 위해 행동해야 합니다.\n\n퀵슬롯에 채집을 위한 아이템이 등록되어있는지 확인하고 기본 행동이 \"//채집하기//\"인지 확인하세요.\n이전 퀘스트에 이 해동에 대한 자세한 설명이 있습니다.\n또는 설정에서 \"//자동 수집/수확//\"을 활성화해 자동으로 수집할 수 있습니다.\n\nWayward에는 다양한 환경이 있습니다. 몇몇 환경은 다른 환경보다 가옥합니다.\nIf you are in a desert, you may have to venture north/north-east to find different resources. You may even have to venture across large bodies of water. Find a lush green forest or dead bushes to gather the branches. Find large rocks on the ground (in piles), or by gathering them from a gray-colored mountain side."
 			],
 
 			"modStarterQuestCrafting": [
