@@ -1339,7 +1339,7 @@
 			"digAway": "파내기",
 			"digging": "파내기",
 			"digWithHands": "손으로 파내기",
-			"disabled": "비활성",
+			"disabled": "비활성화",
 			"disassemble": "분해",
 			"disassembleAction": "분해하기",
 			"disassembling": "분해",
@@ -1893,7 +1893,7 @@
 			"youHarvestedAndDropped": "You harvested and dropped {0}!",
 			"youHaveAlreadyLearned": "You have already learned all you can from {0}.",
 			"youHaveDied": "{0} 죽었습니다!",
-			"youHaveEnabledDisabled": "You have {0} usage of your {1} for automatic gathering and attacking.",
+			"youHaveEnabledDisabled": "{1}으로 자동 수집하거나 공격하는 것을 {0} 했습니다.",
 			"youHaveHealedOther": "You have healed {0}.",
 			"youHaveKilled": "{0}을(를) 죽였습니다!",
 			"youHaveReleased": "{0}을(를) 놓아주었습니다.",
@@ -2149,12 +2149,12 @@
 
 			"modStarterQuestHunting": [
 				"사냥",
-				"With crafting and taming knowledge under your belt, it's time to learn another important survival lesson: Hunting! Find a creature with meat and slay it. You can carve its corpse after dealing the final blow, using a \"//Sharpened//\" item while facing it by using \"//Carve//\" from the item's menu. You can also quickslot it and use a hotkey to quickly carve. Creatures with some form of raw meat include giant rats, spiders, chickens, rabbits, and more."
+				"당신은 제작을 배웠습니다, 이제 또 다른 중요한 생존 방법을 배울 시간입니다!\n바로 사냥입니다! 고기를 얻을 수 있는 생명체를 찾으세요.\n생명체를 죽인 후 해체하려면, \"//날카로운 것//\"에 해당하는 아이템으로 \"//해체//\" 메뉴를 선택하면 됩니다.\n퀵슬롯에 등록해서 지정된 키로 빠르게 해체할 수도 있습니다.\n날고기를 얻을 수 있는 생명체는 거대 쥐, 거미, 닭, 토끼 등이 있습니다."
 			],
 
 			"modStarterQuestWoodenPoles": [
 				"나무 막대기",
-				"You will need to start a fire to cook the raw meat if you want to eat it safely. Your first order of business is to gather the materials used to create your fire-making device. Dismantle enough branches or logs to get a least two \"//Wooden Poles//\"."	
+				"날고기를 조리해서 안전하게 먹기 위해서는 불을 지펴야 합니다.\n첫 번째로 불을 지피는데 필요한 재료를 모아야 합니다.\n최소한 두 개의 \"//나무 막대기//\"를 얻을 수 있도록 나뭇가지나 통나무를 분해하세요."
 			],
 
 			"modStarterQuestHandDrill": [
