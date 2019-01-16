@@ -2159,77 +2159,77 @@
 
 			"modStarterQuestHandDrill": [
 				"핸드 드릴",
-				"At this point, you will have unlocked a new crafting recipe called \"//Hand Drill//\", a primitive and easy-to-craft device that makes fire. You unlock new crafting recipes by having one of each required items in your inventory. Go ahead and craft it!"
+				"이 시점에서, 당신은 가장 간단한 방법으로 불을 지필 수 있는 장치인 \"//핸드 드릴//\"이라는 제조법을 알게 되었습니다.\n소지품에 제작에 필요한 아이템들이 모두 모였기 때문에 새로운 제작법을 알 수 있게 되었습니다.\n어서 만들어 보세요!"
 			],
 
 			"modStarterQuestKindlingTinder": [
 				"불쏘시게 & 부싯깃",
-				"The final items needed to start a fire are kindling and tinder. Many items are considered kindling, such as twigs, tree bark, and wooden dowels (dismantled from wooden poles). Many items are also considered tinder, such as wooden shavings (dismantled from twigs or wooden dowels), animal fur, leaves, and more.\n\nCraft, dismantle, or find kindling and tinder!"
+				"불을 지피기 위해서 필요한 마지막 재료는 불쏘시개와 부싯깃입니다.\n불쏘시개는 나뭇가지, 나무껍질, 나무못(나무 막대기를 분해해서 얻음) 등이 있습니다.\n부싯깃은 대팻밥(잔가지나 나무못을 분해해서 얻음), 동물지방, 잎 등이 있습니다.\n\n제작하거나 분해해서 불쏘시개와 부싯깃을 얻으세요!"
 			],
 
 			"modStarterQuestCampfire": [
 				"캠프파이어",
-				"You could technically start a fire at this moment. But to make a proper, enclosed fire-source, you'll want to make either a \"//Stone Campfire//\" or \"//Sandstone Campfire//\". You'll need quite a few rocks or sandstone for this endeavor.\n\nWith some items, you will be able to build them and temporarily affix them to the world. These objects that are attached/placed on tiles, are called \"//Doodads//\". Using {Bindings:GameItemMenu} on the campfire in your inventory will give you the option to \"//Build//\" it. Do so now, facing a valid tile."
+				"엄밀히 말해서 지금도 불을 지필 수는 있습니다.\n하지만 불을 안전하게 지피고 운용하기 위해서는 \"//돌 캠프파이어//\"나 \"//사암 캠프파이어//\"가 필요합니다.\n이것을 만들기 위해서는 많은 돌이나 사암이 필요합니다.\n\n몇몇 아이템은 건설할 수 있고, 운용할 수 있습니다.\n타일에 설치하기 위해서는 \"//건설//\"을 하시면 됩니다.\n{Bindings:GameItemMenu} 을 해서 캠프파이어의 메뉴를 열어 \"//건설//\"을 누르면 됩니다.\n자, 이제 설치하고 싶은 타일을 바라본 채로 누르세요."
 			],
 
 			"modStarterQuestFire": [
 				"불이야!",
-				"With your hand drill, select the \"//Start Fire//\" option from the item's menu while facing the campfire. Doing so will create a fire contained inside of it. You don't always get lucky when making a fire with low camping skills. It's possible that you may need to re-gather and craft some more wooden shavings (or any other tinder item, such as, leaves, animal fur, or grass blades) and kindling if you fail too many times.\n\nBe careful not to step in your fire!"
+				"소지하고 있는 핸드드릴에서 \"//불붙이기//\" 를 통해 바라보고 있는 캠프파이어에 불을 붙이세요.\n그렇게 하면 캠프파이어 안에 불이 붙습니다.\n캠핑 기술이 낮다면 항상 불을 붙이는 것에 성공하는 것은 아닙니다.\n너무 많이 실패할 경우 불쏘시개와 부싯깃이 더 많이 필요할 겁니다.\n\n불을 밟지 않도록 조심하세요!"
 			],
 
 			"modStarterQuestStokeFire": [
 				"불에 연료 넣기",
-				"Your fire could probably use more fuel as well. To add fuel to a fire, use {Bindings:GameItemMenu} on an item and choose the \"//Stoke Fire//\" action. This action is available on many items, including logs, branches, and more.\n\nYou can check the status of the fire by hovering your mouse over it. If you have tool-tips disabled, you can also check the status by using {Bindings:GameInspect} while hovering over it."
+				"불을 붙인 후에는 연료를 사용할 수 있습니다.\n불에 연료를 추가하기 위해서는 {Bindings:GameItemMenu}을 한 뒤 \"//땔감 보충//\" 행동을 하세요.\n이 행동은 통나무나 나뭇가지 등에서 사용할 수 있습니다.\n\n불의 상태를 알고 싶으면 불이 붙은 곳에 마우스를 올리면 됩니다.\n만약 추가정보를 보지 않도록 설정했다면 {Bindings:GameInspect}을 통해 알 수 있습니다."
 			],
 
 			"modStarterQuestCooking": [
 				"불을 이용한 요리",
-				"Now that you have a proper fire going, you can cook the meat! The craft recipe will be unlocked for the cooked form of this meat. You can even eat it after you are done if you are hungry, or save it for later.\n\nA skewer is an item grouping that contains a wide variety of items including branches, wooden poles, spears, and more!"
+				"이제 불도 준비되었고, 고기를 요리할 수 있습니다!\n제작법의 요리 기술란에 이 고기에 대한 제조법이 생겼을 것입니다.\n배고플 때 먹거나, 놔두었다가 나중에 먹어도 됩니다.\n\n막대기 종류에는 나뭇가지, 나무 막대기, 창 등이 포함되어있습니다."
 			],
 
 			"modStarterQuestTaming": [
 				"생명체 길들이기",
-				"Have you encountered a creature yet? Being counter-aggressive to the hostile island creatures is sometimes not the best option, especially if you are ill-prepared or ill-equipped. There's multiple ways to tame a creature. The most effective way to tame a creature and have it fight for you is to keep them fed and happy. To accomplish this, you can do one of the following actions:\n\n1. Facing a creature, choose the \"//Offer//\" from an item's menu. Certain creatures will like different items. You may have to experiment with this.\n2. Drop an item on the ground and have the creature walk over it. If they want the item, they will become tamed.\n3. Facing a creature, open the actions menu with {Bindings:GameActions} and choose \"//Tame//\". Taming in this manner is difficult, especially at lower skill levels."
+				"생명체를 만난 적이 있나요?\n장비가 제대로 준비되지 않은 상태에서 적대적인 생명체에게 반격하는 것은 좋은 선택이 아닙니다.\n생명체를 길들이는 방법에는 여러 가지가 있습니다.\n생명체를 길들이고 당신을 위해서 싸우게 하기 위해서는 먹이를 주고 행복하게 하는 것입니다.\n길들이기 위해서는 다음 항목을 수행하세요:\n\n1. 바라보는 생명체에게 아이템 메뉴의 \"//먹이 주기//\" 사용하기.\n생명체마다 좋아하는 물건은 다릅니다.\n당신은 여러 아이템으로 실험해 봐야 할 것입니다.\n\n2. 땅에 아이템을 떨구고 생명체가 그것을 먹기를 기다리기.\n생명체가 아이템을 먹는다면 길들입니다.\n\n3. 생명체를 마주 본 상태로 {Bindings:GameActions} 키를 통해 행동 메뉴를 열은 다음 \"//길들이기//\" 선택하기.\n길들이기 기술이 낮다면 이런 방식으로 하는 것은 어렵습니다."
 			],
 
 			"modStarterQuestExtraStorage": [
 				"추가 보관함",
-				"Feeling a bit heavy? You may want to start thinking about long-term storage that is outside of your inventory. The easiest storage container to craft is a \"//Wooden Chest//\". You will need to gather both logs and wooden dowels. To get wooden dowels, you will need to dismantle wooden poles, which are first dismantled from branches.\n\nIf you are looking for further weight reduction in your inventory, you may consider crafting bags or backpacks (using leather) to reduce inventory weight by 50% for all items that are kept inside them."
+				"무겁다고 느껴지나요? 인벤토리 이외의 저장공간이 필요하다고 생각할 것입니다.\n제작하기 가장 쉬운 보관함은 \"//나무 상자//\"입니다.\n통나무와 나무못이 필요할 것입니다.\n나무못은 나무 막대기를 분해해서 얻을 수 있으며, 나무 막대기는 나뭇가지를 분해해서 얻을 수 있습니다.\n\n만약 소지품 내에서 무게를 줄이고 싶다면, 가방이나 백팩(무두질한 가죽을 사용한)을 제작해서 보관할 수 있습니다. 가방이나 백팩 안의 소지품은 무게를 50% 줄여줍니다."
 			],
 
 			"modStarterQuestString": [
 				"밧줄 & 끈",
-				"A very common resource for making many items in Wayward is \"//String//\". By combining two items that are considered \"//Cordage//\", you can craft string. The cordage group is very diverse and includes things such as stripped bark (dismantled from branches), plant roots, seaweed, and many more."
+				"Wayward에서 제작에 가장 많이 사용되는 아이템은 \"//끈//\"입니다.\n\"//밧줄//\"에 속하는 아이템이 두 개가 있다면, 끈을 만들 수 있습니다.\n밧줄에 해당하는 아이템은 매우 다양하며 벗긴 나무껍질(가지에서 분리된), 식물의 뿌리, 나래 미역 등이 있습니다."
 			],
 
 			"modStarterQuestLeather": [
 				"가죽",
-				"Venture forth and find a creature with a pelt. Creatures with pelts include giant rats, rabbits, grey wolves, and bears. Be very careful with the latter two - you may have to improve your combat skills or craft armor if these are too much. Never be afraid to run from a losing battle. Once you've killed one of these creatures, carve its corpse to get the animal pelt. Dismantle the pelt to remove the fur and gain the cleaned leather hide.\n\nTo make leather, you need to tan it with a special powder called tannin. You'll need to make something to grind your tannin with. Mortar and pestles can be crafted with smooth rocks, logs, or even sandstone. After you craft the mortar and pestle, you can grind down tree bark into tannin.\n\nWith tannin and a cleaned leather hide, you can craft \"//Tanned Leather//\" from the crafting window."
+				"모험하면서 가죽을 가진 생명체를 찾으세요.\n가죽을 가진 생명체는 거대 쥐, 토끼, 회색늑대, 곰이 있습니다.\n유의하세요, 나중에 전투기술이나 갑옷을 만드는 기술이 늘어난다면 많은 양의 재료들이 필요해집니다.\n동물 가죽을 얻기 위해서는 생명체를 죽인 후 가죽을 벗기기 위해 해체하세요.\n동물 가죽을 분해해서 벗겨낸 가죽과 동물 털을 얻을 수 있습니다.\n\n무두질한 가죽을 얻기 위해서는 타닌으로 무두질을 해야 합니다.\n타닌을 얻기 위해서는 무언가를 갈아야 합니다.\n절구와 절구공이는 부드러운 돌, 통나무, 사암으로 만들 수 있습니다.\n절구와 절구공이를 만든 후에는 나무껍질을 갈아서 타닌을 만들 수 있습니다.\n\n자 이제 타닌과 벗겨낸 가죽을 통해 제작 창에서 \"//무두질된 가죽//\"을 제작할 수 있습니다."
 			],
 
 			"modStarterQuestWaterskin": [
 				"가죽 물통",
-				"Are you a bit parched? Time to think about water desalination for turning seawater into drinkable, clean water. First, you'll need to make a \"//Waterskin//\" to hold this water.\n\nCollect a needle by either finding cactus needles (carving a cactus) or by progressively sharpening down bones via crafting (bone to bone pole, to sharpened bone, to bone needle). You can also dismantle bone fragments into bone needles directly.\n\nCraft the waterskin with the tanned leather, strings, and needle you've collected."
+				"혹시 목이 마른가요? 이제 식수를 얻기 위해 바닷물을 담수화하는 방법을 알아야 할 시간입니다.\n첫 번째로 물을 담을 수 있는 \"//가죽 물통//\"를 만들어야 합니다.\n\n바늘이 필요하며 선인장 바늘(선인장 가시를 잘라서)이나 뼈를 깎아내려서(뼈를 뼈다귀로, 뼈다귀를 날카로운 뼈로, 날카로운 뼈를 뼈바늘로) 만들 수 있습니다.\n 또는 뼛조각을 분해해서 얻을 수도 있습니다.\n\n무두질한 가죽, 끈, 바늘로 가죽 물통을 만드세요."
 			],
 			
 			"modStarterQuestWaterStill": [
 				"증류기",
-				"Making the container was the hard part. You should now have most things you need to create a still for desalinating water. One last hurdle remains. Gather the following resources to be able to craft a \"//Stone Water Still//\" or \"//Sandstone Water Still//\".\n\nAfter gathering all those resources, you can craft the still. You'll use this device to pour the seawater into, boil and steam-drip the desalinated water into the container.\n\nJust like with the campfire previously, you'll be able to \"//Build//\" the water still facing a valid tile from the item's menu."
+				"가죽 물통을 만드는 것은 어려웠습니다.\n이제 당신은 증류기를 만드는데 필요한 대부분 재료를 가지고 있어야 합니다.\n마지막 단계입니다. \"//돌 증류기//\"나 \"//사암 증류기//\"를 만드는데 필요한 자원을 수집하세요.\n\n모든 자원을 모은 후에는 증류기를 만들 수 있습니다.\n당신은 이 장치를 통해서 바닷물을 붓고 끓여서 담수화를 한 다음 마실 수 있는 식수를 얻을 수 있습니다.\n\n이전 퀘스트의 캠프파이어와 마찬가지로, 당신은 \"//건설//\"을 통해서 증류기를 바라보는 타일에 설치할 수 있습니다."
 			],
 			
 			"modStarterQuestFillStill": [
 				"증류기 채우기",
-				"To test out your new water still, grab some water from the ocean. With another empty container in your inventory, choose the \"//Gather Water//\" option while facing the ocean with your container.\n\nWhile still facing the water still, choose the \"//Pour//\" option from your container of seawater's item menu. This will pour the liquid into the water still."
+				"새로운 증류기를 테스트 하기 위해서 바닷물을 떠오세요.\n소지품에 있는 가죽 물통과 함께 바다를 바라본 상태로 아이템 메뉴의 \"//물 수집하기//\"를 선택하세요.\n\n똑같이 증류기를 바라본 상태에서 \"//붓기//\"를 선택하세요.\n증류기에 바닷물이 채워질 것입니다."
 			],
 			
 			"modStarterQuestDesalination": [
 				"담수화",
-				"You'll need to light the water still on fire so the water can begin to boil and steam. Which means you'll need to find or craft more tinder and kindling. Hopefully you still have durability on your hand drill as well. If not, you'll need to craft another one. After it's on fire, you'll have to wait until the fire goes out or reduces to embers before you can collect the water.\n\nWhen the process has completed, you can choose the \"//Gather Water//\" option from your empty container while facing the still. You will gather the fresh, desalinated water, ready to drink as desired.\n\nYou will only need to complete a process such as this for drinking sea or ocean water. Note that desalination is an advanced technique and may not be needed if you have found fresh water sources. Fresh water can be gathered and purified over a fire, without a still."
+				"증류기가 작동해서 증류기 안의 물이 끓고 수증기를 발생시키기 위해서는 증류기에 불을 붙여야 합니다.\n즉, 불쏘시개나 부싯깃을 만들거나 찾아야 합니다.\n핸드 드릴의 내구도도 남아있으면 좋겠군요.\n그렇지 않다면, 다시 하나를 만들어야 합니다.\n불을 붙인 후에는 불이 꺼지거나 용기에 물이 충분히 찰 때까지 기다려야 합니다. 그 후에 마실 수 있는 식수를 얻을 수 있습니다.\n\n증류기에 물이 충분히 모인 것 같다면 증류기를 바라본 상태로 비어있는 용기의 \"//물 수집하기//\" 메뉴를 통해 식수를 얻을 수 있습니다.\n당신이 필요하던, 마실 수 있는 식수입니다.\n\n바닷물을 마시기 위해서는 이러한 과정을 거쳐야 합니다.\n담수화는 발전된 기술이며, 신선한 물 공급원을 발견한 경우 필요하지 않을 수 있습니다.\n신선한 물은 불 위에서 정화해서 식수로 만들 수 있습니다."
 			],
 			
 			"modStarterQuestSurvivalistTraining": [
 				"살아남기 위한 훈련",
-				"That's it! You should now have some basic knowledge on how to survive in Wayward. With enough learning and skill, you'll eventually be able to thrive and prosper.\n\nTreasure, you remember something about treasure..."
+				"잘하셨습니다! 이제 당신은 wayward에서 살아남을 수 있는 몇 가지 지식에 대해서 배웠습니다.\n충분한 학습과 기술력을 기반으로 당신은 충분히 살아남고 발전할 수 있을 것입니다.\n\n보물, 당신은 보물에 대한 무언가를 기억하고 있습니다...."
 			]
 		},
 		"questRequirement": {
@@ -2237,13 +2237,13 @@
 			"collectItem": "{0}수집하기: {1}/{2}",
 			"killCreature": "{0} 죽이기: {1}/{2}",
 			"killCreatures": "생명체 죽이기: {0}/{1}",
-			"learnSkill": "배우기 {0}: {1}/{2}%",
+			"learnSkill": "{0} 배우기: {1}/{2}%",
 			"learnSkills": "모든 기술 배우기: {0}/{1}%",
 			"learnAnySkill": "기술 하나 배우기: {1}/{2}%{1? ({0} at {1}%)}",
 			"equip": "{1}에 {0}을(를) 착용",
-			"craft": "제작 {0}: {1}/{2}",
-			"dismantle": "분해하기 {0}: {1}/{2}",
-			"build": "건설 {0}",
+			"craft": "{0} 제작: {1}/{2}",
+			"dismantle": "{0} 분해하기: {1}/{2}",
+			"build": "{0} 건설",
 			"tameCreature": "{0} 길들이기: {1}/{2}",
 			"tameCreatures": "생명체 길들이기: {0}/{1}",
 			"modStarterQuestQuickslot": "퀵슬롯에 아이템 등록하기",
