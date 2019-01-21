@@ -1373,7 +1373,7 @@
 			"drink": "마시기",
 			"drop": "버리기",
 			"dropAll": "전부 버리기",
-			"dropAllOfSameQuality": "같은 등급의 아이템을 모두 버렸습니다.",
+			"dropAllOfSameQuality": "같은 등급의 아이템을 모두 버리기",
 			"droppedIntoDepths": "깊은 물 속으로 {0}을(를) 버렸습니다.",
 			"droppedIntoFire": "{0}을(를) 불속에 버렸습니다.",
 			"dueToDehydration": "탈수로",
