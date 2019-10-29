@@ -435,9 +435,9 @@
 			"scorpion": ["전갈", "전갈목에 속하는 포식자입니다. 긴 꼬리에 있는 침은 굉장히 위험해 보입니다."],
 			"rattlesnake": ["방울뱀", "사막에서 서식하는 위험한 포식자입니다. 당신이 가까이 온다면 꼬리를 흔들어서 당신에게 경고합니다."],
 			"antelopeJackrabbit": ["영양잭토끼", "굉장히 빠르고 민첩한 토끼입니다. 뾰족한 귀와 근육질의 몸이 눈에 띕니다."],
-			"redSnapper": ["red snapper", "A massive snapper lurks below; this variation is known for its red hue and is a much sought-after game fish and food source."],
-			"walleye": ["walleye", "A decent sized freshwater fish, known for its olive and gold coloration and pronounced dorsal fin."],
-			"wisp": ["wisp", "A magical glowing orb of ghostly blue fire, playfully moving among the trees. A rare sight indeed!"]
+			"redSnapper": ["적색퉁돔", "A massive snapper lurks below; this variation is known for its red hue and is a much sought-after game fish and food source."],
+			"walleye": ["월아이 피시", "A decent sized freshwater fish, known for its olive and gold coloration and pronounced dorsal fin."],
+			"wisp": ["위습", "A magical glowing orb of ghostly blue fire, playfully moving among the trees. A rare sight indeed!"]
 		},
 		"damageType": {
 			"blunt": "둔기",
@@ -2256,13 +2256,13 @@
 			"weathered": ["입문자", "100,000턴 생존.", "모든스텟이 +2 된 상태로 시작합니다."],
 			"seasoned": ["고인물", "1,000,000턴 생존.", "모든스텟이 +3 된 상태로 시작합니다."],
 			"pacifier": ["조련가", "조련 가능한 모든 생명체를 조련.", "돌연변이 생명체를 길들인 상태로 시작합니다."],
-			"merchant": ["상인", "100개의 아이템 거래.", "Merchants give slightly better deals, but start with less items in their inventory."],
+			"merchant": ["상인", "100개의 아이템 거래.", "상인들과의 거래에서 더 비싸게 팔 수 있습니다. 상인들이 더 적은 아이탬을 판매 하는것 부터 시작합니다."],
 			"notekeeper": ["일기장", "모든 노트 작성.", "책과 종이 그리고 먹을 가지고 시작합니다."],
 			"operator": ["고군분투", "모든 행동 해보기.", "모든 기술이 5%의 추가 효과를 받습니다."],
-			"huntsman": ["잔인한 호기심", "모든 종류의 생명체 죽이기.", "All creatures have a small chance of starting \"scared\""],
-			"contender": ["경쟁자", "Completed a challenge mode game with a positive score.", "Start with a sailboat and every status effect."],
-			"challenger": ["도전자", "Completed 25 challenge mode quests.", "Start with a piece of treasure."],
-			"destroyerOfMagi": ["Destroyer of Magi", "Killed 50 wisps and harvested their corpses.", "Wisps regularly will continiously spawn in locations not normally accessible."]
+			"huntsman": ["잔인한 호기심", "모든 종류의 생명체 죽이기.", "모든 생물이 시작시에 \"무서움\" 을 가질 확률이 조금 생깁니다."],
+			"contender": ["경쟁자", "챌린지 모드를 양의 점수(음의점수 즉 -가 아닌) 상태로 완료했습니다.", "돛단배와 모든 상태 효과를 가진 상태로 시작합니다."],
+			"challenger": ["도전자", "25개의 첼린지 모드의 퀘스트를 완료했습니다.", "하나의 보물을 가지고 시작합니다."],
+			"destroyerOfMagi": ["마력 파괴자", "50마리의 위습을 죽이고 그들의 시체를 해부합니다.", "접근할 수 없는 곳에 위습이 계속 나타납니다."]
 		},
 		"milestoneModifierGroup": {
 			"creatures": "Creatures",
