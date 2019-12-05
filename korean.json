@@ -436,8 +436,8 @@
 			"rattlesnake": ["방울뱀", "사막에서 서식하는 위험한 포식자입니다. 당신이 가까이 온다면 꼬리를 흔들어서 당신에게 경고합니다."],
 			"antelopeJackrabbit": ["영양잭토끼", "굉장히 빠르고 민첩한 토끼입니다. 뾰족한 귀와 근육질의 몸이 눈에 띕니다."],
 			"redSnapper": ["홍돔", "A massive snapper lurks below; this variation is known for its red hue and is a much sought-after game fish and food source."],
-			"walleye": ["월아이", "A decent sized freshwater fish, known for its olive and gold coloration and pronounced dorsal fin."],
-			"wisp": ["위습", "A magical glowing orb of ghostly blue fire, playfully moving among the trees. A rare sight indeed!"]
+			"walleye": ["월아이", "적당한 크기의 민물고기 입니다. 올리브색과 금색으로 알려져있고 등지느러미가 뚜렷합니다."],
+			"wisp": ["위습", "귀신같이 생긴 파란 불이 신비스러운 빛을 내고 있습니다. 나무사이를 잔망스럽게 돌아다니고 있습니다. 진귀한 장면입니다!"]
 		},
 		"damageType": {
 			"blunt": "둔기",
@@ -1279,9 +1279,9 @@
 			"wispDust": ["위습 가루", "위습에서 추출한 빛나는 마법 가루 더미입니다. 설명할수는 없지만, 무게가 없는 것처럼 느껴집니다. 손으로 잡을 수 없을 것 같습니다."],
 			"magicalAspect": ["마법 형상", "따듯한 마법 화학물 입니다. 아이템에 새로운 특성을 부여하기 위해 바를 준비가 되었습니다."],
 			"goldenSextant": ["황금 육분의", "금속에 금을 코팅한 항해 도구입니다. 거리를 측정하기 위해서 태양과 수평선을 이용합니다."],
-			"rawChoppedFish": ["raw chopped fish", "A roughly chopped assortment of fish meat and viscera to be used as bait or cooked for consumption in several manners."],
-			"cookedChoppedFish": ["cooked chopped fish", "A sizable helping of chopped fish cooked and ready to ingest."],
-			"cookedFishKebab": ["cooked fish kebab", "A skewered mass of fish chunks cooked delicately over flame to be consumed off the spear for an added flare."]
+			"rawChoppedFish": ["날 도미", "A roughly chopped assortment of fish meat and viscera to be used as bait or cooked for consumption in several manners."],
+			"cookedChoppedFish": ["조리된 도미", "A sizable helping of chopped fish cooked and ready to ingest."],
+			"cookedFishKebab": ["생선 꼬치", "두툼한 생선을 꼬챙이에 낀 후 불을 이용해 구운 요리입니다."]
 		},
 		"itemGroup": {
 			"invalid": "",
@@ -1741,11 +1741,11 @@
 			"labelBase": "기본: ",
 			"labelCanIncrease": "Can Increase: ",
 			"labelCraftingReputation": "제작 평판: ",
-			"labelCraftingRequires": "Crafting Requires: ",
+			"labelCraftingRequires": "제작 재료 : ",
 			"labelCraftingSkillReputation": "{0}, {1}",
 			"labelDecay": "유지력: ",
 			"labelDefense": "방어:",
-			"labelDismantlingRequires": "Dismantling Requires: ",
+			"labelDismantlingRequires": "분해에 필요한 도구 : ",
 			"labelDurability": "내구도: ",
 			"labelEquip": "장비:",
 			"labelGrouping": "종류: ",
