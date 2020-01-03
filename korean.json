@@ -88,8 +88,8 @@
 			"attachContainer": ["용기 설치", "바라보는 설치물에 용기를 설치 합니다."],
 			"detachContainer": ["용기 수집", ""],
 			"refine": ["개량", "아이템을 다듬어서 무게를 줄이는데 사용됩니다."],
-			"pickupExcrement": ["Pickup Excrement", ""],
-			"testDepth": ["Test Depth", "Used when facing a well to test the depth and water type of a well by lowering the rope down."],
+			"pickupExcrement": ["배설물 줍기", ""],
+			"testDepth": ["우물 확인하기", "긴 밧줄을 우물안에 넣어서 우물의 깊이와 물의 종류를 확인합니다."],
 			"enchant": ["마법 부여", "아이템을 강화하거나, 품질을 높이거나, 마법적인 특성을 변경하는데 사용합니다."],
 			"navigate": ["길 찾기", "위치를 찾기위해 수평선의 거리를 측정합니다."],
 			"melee": ["공격", "바라보고 있는 생명체를 공격합니다."]
@@ -547,7 +547,7 @@
 			"clayBrickWell": ["점토 벽돌 우물", "지하수를 끌어 올릴 수 있게 점토를 이용해 울타리를 만들었습니다."],
 			"sandstoneWell": ["사암 우물", "지하수를 끌어 올릴 수 있게 사암으로 깊은 울타리를 만들었습니다."],
 			"stoneWell": ["돌 우물", "지하수를 끌어 올릴 수 있게 돌로 울타리를 만들었습니다."],
-			"ashCementWall": ["ash cement wall", "A wall constructed of ash cement bricks. Great as a recycled resource, but not the strongest material."]
+			"ashCementWall": ["시멘트 벽", "시멘트 벽돌을 이용해 건설한 벽 입니다. 자원을 재활용 해서 만들었으며, 기존 재료보다 튼튼하지는 않습니다."]
 		},
 		"doodadGroup": {
 			"litCampfire": "타고있는 캠프파이어",
@@ -1278,17 +1278,17 @@
 			"guano": ["구아노", "박쥐의 배설물이 쌓여 굳은 것입니다. 질소, 인산염, 칼륨의 함량이 높아 훌륭한 비료로 사용됩니다."],
 			"tallow": ["수지", "동물성 지방을 차갑게 해 고체로 만들었습니다. 요리나 연료에 쓰이는 기름입니다."],
 			"tallowCandle": ["수지 양초", "끈을 심지로 사용한 수지 양초입니다. 오랫동안 불을 유지할 수 있습니다."],
-			"litTallowCandle": ["불 붙은 수지 양초", "좋은 향기가 나며 밝은 수지 양초는 오랫동안 당신의 길을 비추어 줄 것입니다.Burning long and bright, this delicious smelling tallow candle lights your way."],
+			"litTallowCandle": ["불 붙은 수지 양초", "좋은 향기가 나며 밝은 수지 양초는 오랫동안 당신의 길을 비추어 줄 것입니다."],
 			"wispDust": ["위습 가루", "위습에서 추출한 빛나는 마법 가루 더미입니다. 설명할수는 없지만, 무게가 없는 것처럼 느껴집니다. 손으로 잡을 수 없을 것 같습니다."],
 			"magicalAspect": ["마법 형상", "따듯한 마법 화학물 입니다. 아이템에 새로운 특성을 부여하기 위해 바를 준비가 되었습니다."],
 			"goldenSextant": ["황금 육분의", "금속에 금을 코팅한 항해 도구입니다. 거리를 측정하기 위해서 태양과 수평선을 이용합니다."],
 			"rawChoppedFish": ["날 생선 조각", "미끼로 쓰거나 요리등에 사용하기 위해서 대충 잘라놓은 생선 덩어리 입니다."],
 			"cookedChoppedFish": ["조리된 생선 조각", "요리해서 먹을 준비가 된 생선 조각입니다."],
 			"cookedFishKebab": ["생선 꼬치", "두툼한 생선을 꼬챙이에 낀 후 불을 이용해 구운 요리입니다."],
-			"ashCement": ["ash cement", "A tacky slurry of cement, created by grinding ash and mixing it with liquid, heated to a glowing temperature, then broken down again with water."],
-			"ashCementBrick": ["ash cement brick", "The final form of the ash cement; mixed with the once-heated mixture and clay to give it rigidity, then baked over fire."],
-			"ashCementFlooring": ["ash cement flooring", "Flooring made from interweaving ash cement bricks."],
-			"ashCementWall": ["ash cement wall", "A wall constructed of recycled ash cement. Although the resource is abundant, the durability is not."]
+			"ashCement": ["시멘트", "A tacky slurry of cement, created by grinding ash and mixing it with liquid, heated to a glowing temperature, then broken down again with water."],
+			"ashCementBrick": ["시멘트 벽돌", "한번 구운 혼합물, 그리고 점토로 경직 시킨 것을 구워 만든 시멘트 벽돌입니다."],
+			"ashCementFlooring": ["시멘트 바닥", "시멘트 벽돌을 조합해서 만든 바닥재 입니다."],
+			"ashCementWall": ["시멘트 벽", "재활용 시멘트를 이용해 건설한 벽입니다. 재료가 많긴 하지만 그렇게 튼튼하지는 않습니다."]
 		},
 		"itemGroup": {
 			"invalid": "",
@@ -2745,13 +2745,13 @@
 			"fire": ["화재", "열과 빛을 내는 통제되지 않는 불꽃입니다."],
 			"honeyFungus": ["뽕나무버섯", "나무에 기생하는 버섯으로써 살아있거나 썩거나, 죽은 식물에서 자라납니다."],
 			"tumblingTumbleweed": ["굴러가는 회전초", "건조하고 부서지기 쉬운 잡초가 굴러다니면서 여기저기 씨앗을 뿌리고 있습니다."],
-			"animalDroppings": ["animal droppings", "Droppings produced by a small mammal."],
-			"animalDung": ["animal dung", "A seemingly fresh pile of feces, excreted from an animal."],
-			"guano": ["guano", "The excrement of a bat, thought to be used as fertilizer."],
-			"wispDust": ["wisp dust", "A quickly vanishing pile of glowing dust, excreted from a ghostly wisp."],
-			"blood": "blood",
-			"bloodWater": "blood in water",
-			"acid": ["acid", "A neon-green ooze; boiling and bubbling into the ground."]
+			"animalDroppings": ["설치류 배설물", "작은 원통형의 설치류 배설물 입니다."],
+			"animalDung": ["동물 배설물", "동물이 배설한 배설물이 포게져 쌓여있습니다."],
+			"guano": ["구아노", "박쥐의 배설물 입니다, 비료로 쓸수 있을것 같습니다."],
+			"wispDust": ["위습 가루", "유령같은 위습에서 나온 빛나는 가루 더미 입니다, 빠르게 사라지고 있습니다."],
+			"blood": "피",
+			"bloodWater": "피와 섞인 물",
+			"acid": ["산", "빛나는 녹색 액체, 땅에서 부글부글 거리면서 흐르고있습니다."]
 		},
 		"ui": {
 			"gameActionGather": "채집",
