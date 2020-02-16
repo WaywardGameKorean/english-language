@@ -684,7 +684,7 @@
 			"gameLoadingMultiplayerPlayerConnecting": "Player Connecting",
 			"gameLoadingMultiplayerSyncing": "Syncing With Server",
 			"gameLoadingReloadingWebGl": "Reloading WebGl",
-			"gameDangerousStep": ["Are you sure you want to step there?", "Stepping onto {0} is dangerous!"],
+			"gameDangerousStep": ["정말로 그곳으로 이동할건가요?", "{0}으로 이동하는 것은 위험합니다!"],
 			"gameSaveFailure": ["Failed to Save the Game", "Please create a topic and send us your logs on the {link(https://steamcommunity.com/app/379210/discussions/1/):Bug Reports Forum}."],
 			"gameLoadFailure": ["Failed to Load the Game", "Please create a topic and send us your logs on the {link(https://steamcommunity.com/app/379210/discussions/1/):Bug Reports Forum}."],
 			"gameDesalinationNoNeed": ["This water does not need to undergo the desalination process.", "Do you want to pour it in the still to purify?"],
@@ -698,7 +698,7 @@
 			"gameLoadingSprites": "스크립트 로드중",
 			"gameMultiplayerSynchronizing": ["Synchronizing", "Synchronizing game state with the server."],
 			"gameNoSaveOnDeath": ["You Have Died", "You cannot save while dead in hardcore mode."],
-			"gameItemsMayBeDestroyedOnUse": ["Your {0} may be destroyed.", "Are you sure you want to do that?"],
+			"gameItemsMayBeDestroyedOnUse": ["당신의 {0}이(가) 부셔질수 있습니다.", "정말로 실행 하실건가요?"],
 			"gameCannotRun": ["Wayward cannot be run on this system or browser.", "{0}"],
 			"gameStartModifiers": ["", ""],
 			"menuChangelogLoadingChangelog": "Loading Changelog",
@@ -1420,7 +1420,7 @@
 			"actionCraftEfficacyMed": "good",
 			"actionCraftEfficacyPercent": " ({0}%)",
 			"actionCraftYouLackTheRequirements": "이 물건을 만들기 위한 재료가 부족합니다.",
-			"actionDetachContainerDetachContainer": "You detached {0} from {1}",
+			"actionDetachContainerDetachContainer": "{1}에서 {0}을(를) 분리했습니다.",
 			"actionDisassembleSalvaged": "You salvaged {0} by disassembling {1}.",
 			"actionDismantleSeparated": "You separated {0} by dismantling {1}.",
 			"actionFishingNothingBiting": "Nothing seems to be biting here.",
@@ -1593,7 +1593,7 @@
 			"deathByWeaponByPlayer": "{1}이(가) 휘두른 {0}에 의해",
 			"decay": "부식",
 			"destroyedFromUse": "{0}이(가) 사용 도중에 파괴되었습니다.",
-			"detachContainer": "Detach Container",
+			"detachContainer": "용기 수집",
 			"dexterity": "손재주",
 			"dexterityIncreasing": "손재주가 늘어난 것 같습니다!",
 			"didNotSeemToBeHurting": "{0}은(는) {1}을(를) 해치는 것 같지 않습니다.",
@@ -2562,29 +2562,19 @@
 				"무겁다고 느껴지나요? 인벤토리 이외의 저장공간이 필요하다고 생각할 것입니다.\n제작하기 가장 쉬운 보관함은 \"//나무 상자//\"입니다.\n통나무와 나무못이 필요할 것입니다.\n나무못은 나무 막대기를 분해해서 얻을 수 있으며, 나무 막대기는 나뭇가지를 분해해서 얻을 수 있습니다.\n\n만약 소지품 내에서 무게를 줄이고 싶다면, 가방이나 백팩(무두질한 가죽을 사용한)을 제작해서 보관할 수 있습니다. 가방이나 백팩 안의 소지품은 무게를 50% 줄여줍니다."
 			],
 
-			"modStarterQuestString": [
-				"밧줄 & 끈",
-				"Wayward에서 제작에 가장 많이 사용되는 아이템은 \"//끈//\"입니다.\n\"//밧줄//\"에 속하는 아이템이 두 개가 있다면, 끈을 만들 수 있습니다.\n밧줄에 해당하는 아이템은 매우 다양하며 벗긴 나무껍질(가지에서 분리된), 식물의 뿌리, 나래 미역 등이 있습니다."
-			],
-
-			"modStarterQuestLeather": [
-				"가죽",
-				"모험하면서 가죽을 가진 생명체를 찾으세요.\n가죽을 가진 생명체는 거대 쥐, 토끼, 회색늑대, 곰이 있습니다.\n유의하세요, 나중에 전투기술이나 갑옷을 만드는 기술이 늘어난다면 많은 양의 재료들이 필요해집니다.\n동물 가죽을 얻기 위해서는 생명체를 죽인 후 가죽을 벗기기 위해 해체하세요.\n동물 가죽을 분해해서 벗겨낸 가죽과 동물 털을 얻을 수 있습니다.\n\n무두질한 가죽을 얻기 위해서는 타닌으로 무두질을 해야 합니다.\n타닌을 얻기 위해서는 무언가를 갈아야 합니다.\n절구와 절구공이는 부드러운 돌, 통나무, 사암으로 만들 수 있습니다.\n절구와 절구공이를 만든 후에는 나무껍질을 갈아서 타닌을 만들 수 있습니다.\n\n자 이제 타닌과 벗겨낸 가죽을 통해 제작 창에서 \"//무두질된 가죽//\"을 제작할 수 있습니다."
-			],
-
-			"modStarterQuestWaterskin": [
-				"가죽 물통",
-				"혹시 목이 마른가요? 이제 식수를 얻기 위해 바닷물을 담수화하는 방법을 알아야 할 시간입니다.\n첫 번째로 물을 담을 수 있는 \"//가죽 물통//\"를 만들어야 합니다.\n\n바늘이 필요하며 선인장 바늘(선인장 가시를 잘라서)이나 뼈를 깎아내려서(뼈를 뼈다귀로, 뼈다귀를 날카로운 뼈로, 날카로운 뼈를 뼈바늘로) 만들 수 있습니다.\n 또는 뼛조각을 분해해서 얻을 수도 있습니다.\n\n무두질한 가죽, 끈, 바늘로 가죽 물통을 만드세요."
-			],
-			
 			"modStarterQuestWaterStill": [
 				"증류기",
-				"가죽 물통을 만드는 것은 어려웠습니다.\n이제 당신은 증류기를 만드는데 필요한 대부분 재료를 가지고 있어야 합니다.\n마지막 단계입니다. \"//돌 증류기//\"나 \"//사암 증류기//\"를 만드는데 필요한 자원을 수집하세요.\n\n모든 자원을 모은 후에는 증류기를 만들 수 있습니다.\n당신은 이 장치를 통해서 바닷물을 붓고 끓여서 담수화를 한 다음 마실 수 있는 식수를 얻을 수 있습니다.\n\n이전 퀘스트의 캠프파이어와 마찬가지로, 당신은 \"//건설//\"을 통해서 증류기를 바라보는 타일에 설치할 수 있습니다."
+				"혹시 목이 마른가요? 이제 식수를 얻기 위해 바닷물을 담수화하는 방법을 알아야 할 시간입니다. 자원을 모아 \"//돌 증류기//\" 혹은 \"//사암 증류기//\" 를 제작할 수 있죠.\n\n많은 자원을 모은 후에 증류기를 만들수 있습니다. 당신은 이 장치를 이용해서 바닷물을 붓고, 끓인다음 증기를 모아 용기에 담수화된 물을 모을것입니다.\n\n캠프파이어 때와 같습니다, 당신이 설치하고 싶은 타일을 마주 한체로 \"//건설하기//\" 메뉴를 사용해 증류기를 설치하세요."
 			],
 			
 			"modStarterQuestFillStill": [
 				"증류기 채우기",
 				"새로운 증류기를 테스트 하기 위해서 바닷물을 떠오세요.\n소지품에 있는 가죽 물통과 함께 바다를 바라본 상태로 아이템 메뉴의 \"//물 수집하기//\"를 선택하세요.\n\n똑같이 증류기를 바라본 상태에서 \"//붓기//\"를 선택하세요.\n증류기에 바닷물이 채워질 것입니다."
+			],
+
+			"modStarterQuestAttachContainer": [
+				"증류기에 용기 설치하기",
+				"\n\n증류기를 설치했다면, \"//용기 채우기//\" 항목을 증류기 엑션 메뉴에서 선택할 수 있습니다. 용기를 증류기에 설치하면 나중에 물이 모이게 되었을대 다시 분리 할 수 있습니다."
 			],
 			
 			"modStarterQuestDesalination": [
@@ -2616,6 +2606,7 @@
 			"modStarterQuestLightCampfire": "캠프 파이어에 불 붙이기",
 			"modStarterQuestStokeCampfire": "캠프 파이어에 연료 넣기",
 			"modStarterQuestFillStill": "증류기에 물 채우기",
+			"modStarterQuestAttachContainer": "증류기에 용기 설치하기",
 			"modStarterQuestLightWaterStill": "증류기에 불 붙이기",
 			"modStarterQuestGatherFromWaterStill": "증류기에서 식수 받기"
 		},
