@@ -3306,7 +3306,7 @@
 			"menuSharedValueMillseconds": "{0}ms",
 			"menuSharedValuePercentage": "{0}%",
 			"menuSharedMilestonesNotUnlockable": "업적 달성 불가능",
-			"menuSharedMilestonesNotUnlockableDescription": "{#--text-color-faded:{0? {#--text-color:{1}} 모드에서는 업적을 달성할 수 없습니다..}{2?{0?\n}업적 달성을 방해하는 모드가 켜져있습니다 \\: {2}}}",
+			"menuSharedMilestonesNotUnlockableDescription": "{#--text-color-faded:{0? {#--text-color:{1}} 모드에서는 업적을 달성할 수 없습니다.}{2?{0?\n}업적 달성을 방해하는 모드가 켜져있습니다 \\: {2}}}",
 			"menuSharedMilestonesNotUnlockableButtonShowMods": "Show Mods",
 			"menuSharedButtonDisableAll": "전부 비활성화",
 			"menuSharedButtonEnableAll": "전부 활성화",
