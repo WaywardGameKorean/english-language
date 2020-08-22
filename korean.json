@@ -39,7 +39,7 @@
 			"drinkCure": ["해독제 마시기", "중독상태를 치료하기 위해 마십니다. 그 외 종종 건강에 좋은 효과를 줍니다."],
 			"tellTime": ["시간 보기", "현재 시각을 확인합니다."],
 			"sailToCivilization": ["문명으로 돌아가기", "모든 보물을 모은 후에 문명으로 돌아갈 수 있습니다, 그러면 당신은 부와 명예를 얻게 됩니다. 나중에 언제든지 다시 이 섬으로 돌아올 수 있습니다."],
-			"transmogrify": ["속성 부여", "아이템에 사용하면 마법적인 속성을 부여할 수 있습니다."],
+			"transmogrify": ["속성 부여", "아이템에 사용하면 새로운 마법 속성을 부여하거나, 다른 마법 속성을 부여할 수 있습니다."],
 			"fire": ["사격", "총알과 함께 화약을 넣은 상태에서 발사할 수 있습니다."],
 			"teleport": ["순간이동", "완드를 휘둘러서 보고 있는 방향으로 순간이동 합니다."],
 			"extinguish": ["불 끄기", "횃불을 적셔 불을 끕니다."],
@@ -89,10 +89,11 @@
 			"refine": ["개량", "아이템을 다듬어서 무게를 줄이는데 사용됩니다."],
 			"pickupExcrement": ["배설물 줍기", ""],
 			"testDepth": ["우물 확인하기", "긴 밧줄을 우물안에 넣어서 우물의 깊이와 물의 종류를 확인합니다."],
-			"enchant": ["마법 부여", "아이템을 강화하거나, 품질을 높이거나, 마법적인 특성을 변경하는데 사용합니다."],
+			"enchant": ["마법 부여", "아이템을 강화하거나, 품질을 높이거나, 마법적인 특성을 새로 주입하거나 변경하는데 사용합니다."],
 			"navigate": ["길 찾기", "위치를 찾기위해 수평선의 거리를 측정합니다."],
 			"melee": ["공격", "바라보고 있는 생명체를 공격합니다."],
-			"grabAll": ["전부 줍기", ""]
+			"grabAll": ["전부 줍기", ""],
+			"respawn": ["Respawn", ""]
 		},
 		"bindable": {
 			"none": "none",
@@ -260,16 +261,17 @@
 			"useCount": "사용횟수"
 		},
 		"command": {
-			"commands": "commands",
-			"players": "players",
-			"ping": "ping",
-			"kick": "kick",
-			"banned": "banned",
+			"backup": "backup",
 			"ban": "ban",
-			"unban": "unban",
+			"banned": "banned",
+			"commands": "commands",
+			"kick": "kick",
 			"pause": "pause",
+			"ping": "ping",
+			"players": "players",
 			"save": "save",
-			"sync": "sync"
+			"sync": "sync",
+			"unban": "unban"
 		},
 		"corpse": {
 			"fireElemental": "잿더미"
@@ -744,7 +746,7 @@
 			"gameMultiplayerTravelVote": ["{0} wants to travel away and everyone must travel together.\nFood and water are recommended.", "Do you want to travel to another island?"],
 			"gameNoHealingRequired": ["Your target for healing is not damaged or bleeding.", "Are you sure you want to heal anyways?"],
 			"gameNoSaveOnDeath": ["You Have Died", "You cannot save while dead in hardcore mode."],
-			"gamePickUpWaterStillWithWater": ["This water still contains water.", "Do you want to pick it up, and empty the water out?"],
+			"gamePickUpStillWithWater": ["This still contains water.", "Do you want to pick it up, and empty the water out?"],
 			"gameReleaseCreature": "Are you sure you want to release {0}?",
 			"gameRenameCreature": "{0} 을(를) 어떤 이름으로 바꿀까요?",
 			"gameRenameDoodad": "{0} 을(를) 어떤 이름으로 바꿀까요?",
@@ -1498,6 +1500,7 @@
 			"actionAttachContainerAlreadyHasContainer": "{0}에 이미 용기가 설치 되어있습니다!",
 			"actionAttachContainerAttachedContainer": "{0}을(를) {1}에 설치했습니다.",
 			"actionAttachContainerAttachingContainer": "용기 부착",
+			"actionAttachContainerCannotAttach": "You cannot attach {0} to the still.",
 			"actionAttachContainerNothingToAttachContainerTo": "There is nothing to attach {0}.",
 			"actionCastAreaOverfished": "This area appears to have been overfished.",
 			"actionConsumeItemTypeStats": "당신은 {0}.",
@@ -1838,7 +1841,7 @@
 			"itContains": "내용물: {0}.",
 			"itemFromWater": "당신은 {0}을(를) 건져 올렸습니다!",
 			"itsWeightCapacity": "Its weight capacity is {0} / {1}{2? +{2}}.",
-			"joinedAServer": "당신을 제외한 {0} 명의 {reformat({0},false):플레이어}가 들어와 있습니다.",
+			"joinedAServer": "당신을 제외한 {0} 명의 플레이어가 들어와 있습니다.",
 			"jump": "점프",
 			"killed": "{0}에게 죽엇습니다!",
 			"knowledgeHasIncreased": "{0}에 대한 지식이 증가했습니다.",
@@ -2106,6 +2109,7 @@
 			"revealsEntityIsMostlyUninjured": "{0} {1}은(는) {#--text-color:거의 상처입지 않았습니다}.",
 			"revealsEntityIsOnTheVergeOfDeath": "{0} {1}은(는) on the {#--text-color:죽어갑니다}.",
 			"revealsEntityIsSeverelyInjured": "{0} {1}은(는) {#--text-color:중상을 입었습니다}.",
+			"revealsEntityIsUninjured": "{0} that {1} is {#--text-color:uninjured}.",
 			"revealsEntitySeemsInjured": "{0} {1}은(는) {#--text-color:부상을 입었습니다}.",
 			"revealsEntitySeemsUninjured": "{0} {1}은(는) {#--text-color:상처입지 않았다}.",
 			"revealsNumberOfResistancesAndVulnerabilities": "{0} {1}은(는) {#--text-color:{2?{2}에 대한 저항력이 있고:저항력이 없고}}, {#--text-color:{3?{3}에대해 취약합니다:취약점이 없습니다}}.",
@@ -2513,6 +2517,7 @@
 			"reputation": ["명성", "어느 정도 시간이 흐르고 생존하면서 알아낸 사실이 있다.\n이 섬은 내가 어떤 행동을 하느냐에 따라 내 주변 환경이 바뀌는 것 같다.\n\n내가 식물을 가꾸거나 섬의 거주자(동물)를 해치지 않는다면 내 주변은 크게 적대적이지 않았다.\n반대로 내가 섬의 자원을 모으고 섬의 거주자(동물)를 해칠 경우 내 주변엔 적대적인 몬스터들이 생겨났다.\n\n이 메모를 적는 동안 섬은 {0?{#--message-type-good:자비로웠다}:{#--message-type-bad:악의적이었다}}.\n\n내가 이 섬에서 살아남기 위해서는 그리고 내 주변 환경이 평온하기 위해서는 내 행동이 많이 제한적일 것 같다."],
 			"seaTravel": ["Sea Travel", "I finally made it!\n\n{0?My {0} chopped through the rough seas on my journey to this new set of islands.:Although, I felt like I barely made it at all, traveling these seas without a boat was very foolish in hindsight, exhausting me to my very core, and nearly killing me in the process.} {1?{2?Using my {1} and {2}, I was able to significantly speed up my journey, reducing the food and water needed for the voyage.:Using my {1}, I was able to save some time on my journey, but it would have been even faster with {3}, reducing the food and water required even further.}:If I had a sextant and a spyglass, I could have significantly reduced the time needed for the voyage, saving much food and water for the trip. It was difficult navigating the seas without them.}"],
 			"staminaReplenishment": ["휴식", "나는 완전히 지쳤다.\n더는 손가락 하나 까딱할 힘이 없다.\n이제는 정말로 휴식을 취해야 한다, 더는 그 어떠한 것도 할 수 없다.\n급한 대로 땅 위에서 휴식을 취하거나, 휴식에 효율적인 침낭을 이용해 수면을 취해야 한다.\n휴식은 내 정신건강과 생존을 위해 꼭 필요하다."],
+			"starvation": ["Starvation", "I'm wasting away. Each step I take feels like a step closer to death, and each one of those steps makes me weaker and weaker.\n\nI would eat anything in this state. Yes, even all the undesirables I have passed on throughout my life. I'll take the vile organs from a rat, I'll take the bitter seeds from a tree, and I'll even eat any creepy crawlies I discover. Anything for a little sustenance on this blasted island.\n\nIt might be a good idea to search further out or even think about planting my own crops. I don't know how long I'll be here for. If my hunger is anything to go by, it might not be for much longer."],
 			"stranded": ["좌초", "나는 내 동료들과 선원들이 내 곁에 있지 않다는걸 깨달았다.\n대신 나는 너덜너덜해진 내 옷과 {0} 등 일부 지저분해진 소지품만 남아있을 뿐이었다.\n희미한 기억 속에서 \"보물\"이라는 단어를 기억해 냈다.\n그래 난 보물과 관련된 무언가를 하고 있었다."],
 			"toolUse": ["도구 사용", "나는 맨손으로 {0}을(를) 시도하면서 //\"머리가 멍청하면 몸이 고생한다\"//라는 속담이 생각난다.\n{1}을(를) 하기 위해 도구를 사용하면 몸이 고생할 일 없이 정확하고 빠르게, 효율적으로 작업을 할 수 있다.\n게다가 나는 벌목을 할 때는 도끼를, 채굴을 할 때는 곡괭이가 효율적이라는 걸 알아냈다.\n 그 속담은 사실이었다."],
 			"treasureHunting": ["보물 찾기", "나는 우연히 낡은 지도를 발견했고 지도를 자세히 보니 익숙한 곳이란 걸 알 수 있었다.\n지도를 해독하고 주변 환경이나 위치를 찾기 위해서는 여러 번의 시도를 해야 할 것 같지만, 나는 이게 그만한 가치가 있다고 생각한다.\n내 작도법 기술에 따라서 이 낡은 지도를 좀 더 잘 해석할 수 있을 것이다.\n이건 보물지도 일수도 있다.\n\n비록 완전한 기억은 아니지만 나는 보물에 대한 무언가를 해야 한다는 느낌에 사로잡혀있다."]
@@ -2779,7 +2784,8 @@
 			"skill": "기술",
 			"wellbeing": "행복도",
 			"stat": "상태",
-			"reputation": "Reputation"
+			"reputation": "Reputation",
+			"events": "Events"
 		},
 		"stat": {
 			"health": "체력",
@@ -2801,13 +2807,13 @@
 			"waste": "waste"
 		},
 		"statusEffect": {
-			"bleeding": ["출혈", "출혈", "{StatusEffect:Bleeding:3}\n{StatusEffect:Bleeding:4:(...)}{StatusEffect:Bleeding:5:(...)}{StatusEffect:Bleeding:6:(...)}{StatusEffect:Bleeding:7:(...)}{StatusEffect:Bleeding:8:(...)}",
+			"bleeding": ["출혈", "출혈", "{StatusEffect:Bleeding:3}\n{StatusEffect:Bleeding:4:(...)}{StatusEffect:Bleeding:5:(...)}{StatusEffect:Bleeding:6:(...)}{StatusEffect:Bleeding:7:(...)}{StatusEffect:Bleeding:8:(...)}\n{StatusEffect:Bleeding:9:(...)}{StatusEffect:Bleeding:10:(...)}",
 				"Your wounds are leaking like a seive.", "{1?{2?- Dealing around {#--message-type-bad:{2} damage} every {1} turns!}}",
 					"{1?{2?:- Dealing damage every {1} turns!}}",
 					"{1?:{2?- Dealing around {#--message-type-bad:{2} damage}!}}",
 					"{1?:{2?:- Actively dealing damage!}}",
 				"{0?\n- {0}% chance to pass each damage tick.}"],
-				"poisoned": ["중독", "중독", "{StatusEffect:Poisoned:3}\n{StatusEffect:Poisoned:4:(...)}{StatusEffect:Poisoned:5:(...)}{StatusEffect:Poisoned:6:(...)}{StatusEffect:Poisoned:7:(...)}{StatusEffect:Poisoned:8:(...)}",
+				"poisoned": ["중독", "중독", "{StatusEffect:Poisoned:3}\n{StatusEffect:Poisoned:4:(...)}{StatusEffect:Poisoned:5:(...)}{StatusEffect:Poisoned:6:(...)}{StatusEffect:Poisoned:7:(...)}{StatusEffect:Poisoned:8:(...)}\n{StatusEffect:Poisoned:9:(...)}{StatusEffect:Poisoned:10:(...)}",
 				"You feel nauseous as you writhe in pain.", "{1?{2?- Dealing around {#--message-type-bad:{2} damage} every {1} turns!}}",
 					"{1?{2?:- Dealing damage every {1} turns!}}",
 					"{1?:{2?- Dealing around {2} damage!}}",
@@ -2818,7 +2824,7 @@
 					"{1?{2?:- Dealing damage every {1} turns!}}",
 					"{1?:{2?- Dealing around {#--message-type-bad:{2} damage}!}}",
 					"{1?:{2?:- Actively dealing damage!}}",
-				"{0?\n- {0}% chance to pass each damage tick.}"],
+				"{0?\n- {0}% chance to pass each damage tick.}", "- Reduces stamina every damage tick.\n", "- Reduces thirst timer every damage tick."],
 				"encumbered": ["encumbered", "encumbrance", "{StatusEffect:Encumbered:3}\n{StatusEffect:Encumbered:4:(...)}{StatusEffect:Encumbered:5:(...)}{StatusEffect:Encumbered:6:(...)}",
 				"You are carrying too much weight.", "{0?- Losing {#--message-type-bad:{1} stamina} per movement!\n}",
 				"- Stamina cannot be regained.\n", "- Movement speed slowed."],
@@ -3036,7 +3042,7 @@
 			"gameMessagesFiltersEdit": "수정",
 			"gameMessagesNewNote": "메모 작성: {0}",
 			"gameMessagesTurn": "Turn {0}",
-			"gameMessagesDedicatedServerBackup": "Saving backup to {0}",
+			"gameMessagesDedicatedServerBackup": "Saved backup to {0}",
 			"gameMessagesDedicatedServerBackupLimitReached": "Reached max backup limit ({0}). Deleting oldest backup {1}.",
 			"gameTileInspectionCannotSeeTile": "Cannot see inspected tile.",
 			"menuAboutTitle": "소개",
@@ -3371,6 +3377,8 @@
 			"menuOptionsButtonAutoAttackTooltip": "If checked, you will automatically attack when moving into a creature or player (with PVP enabled) with whichever hand(s) you have selected.",
 			"menuOptionsButtonAutoPickup": "자동 줍기",
 			"menuOptionsButtonAutoPickupTooltip": "체크하면 아이템 위로 이동할 때 자동으로 줍게 됩니다.",
+			"menuOptionsButtonDropOnDismantle": "Drop on Dismantle",
+			"menuOptionsButtonDropOnDismantleTooltip": "If checked, you will automatically drop items under your character when dismantling items.",
 			"menuOptionsButtonDropOnGatherHarvest": "채집/수확 하고 내려놓기",
 			"menuOptionsButtonDropOnGatherHarvestTooltip": "체크하면 채집/수확 하고 나서 캐릭터 밑에 자원을 떨굽니다.",
 			"menuOptionsButtonKeepSortActive": "정렬 상태 유지",
