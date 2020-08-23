@@ -1,5 +1,5 @@
 {
-	"name": "Korean v2.9.3",
+	"name": "Korean v2.9.4",
 	"alternateFontStyle": false,
 	"dictionaries": {
 		"action": {
@@ -93,7 +93,9 @@
 			"navigate": ["길 찾기", "위치를 찾기위해 수평선의 거리를 측정합니다."],
 			"melee": ["공격", "바라보고 있는 생명체를 공격합니다."],
 			"grabAll": ["전부 줍기", ""],
-			"respawn": ["부활", ""]
+			"respawn": ["부활", ""],
+			"protectItem": ["보호", ""],
+			"unProtectItem": ["보호 해제", ""]
 		},
 		"bindable": {
 			"none": "none",
@@ -120,6 +122,7 @@
 			"gameItemDrop": "아이템 버리기",
 			"gameItemDropAll": "같은 모든 아이템 버리기",
 			"gameItemEquipToggle": "장비하고 있는 아이템 전환",
+			"gameItemProtectToggle": "아이탬 보호 전환",
 			"gameHandToggleLeft": "왼손 사용/사용 해제",
 			"gameHandToggleRight": "오른손 사용/사용 해제",
 			"gameInspect": "조사",
@@ -837,7 +840,8 @@
 			"steamworksModImportSaveGameFailure": "Failed to import the save game from the mod '{0}'.",
 			"steamworksModImportedSaveGame": "The mod '{0}' has imported a saved game.",
 			"steamworksLoadingRefreshingMods": "Refreshing Mods",
-			"steamworksOpenFolderFailure": ["Failed to open the folder.", "Please navigate to the folder manually."]
+			"steamworksOpenFolderFailure": ["Failed to open the folder.", "Please navigate to the folder manually."],
+			"steamworksModPublishModJsonUpdateFailed": ["Mod published, but failed to update mod.json file.", "Please ensure your mod.json has the following metadata:\n{#--color-code:\"publishedFileId\": \"{1}\"}\n\nThe error when trying to update the mod.json:\n{#--color-error:{0}}"]
 		},
 		"interruptChoice": {
 			"cancel": "취소",
@@ -2064,7 +2068,7 @@
 			"preservedFood": "음식을 보존했습니다.",
 			"purifiedWaterInStill": "정화된 물이 들어있습니다.",
 			"quality": "등급",
-			"recent": "최근",
+			"recent": "최근 (기본)",
 			"reduceLength": "{1}의 {0}이(가) {2}의 길이를 줄였습니다.",
 			"refine": "개량",
 			"refusedToBeTamed": "{0}은(는) 놓아준 지 얼마 되지 않아서 길들길 거부합니다.",
@@ -2234,7 +2238,7 @@
 			"unknownItem": "미지의 아이템",
 			"unlimited": "unlimited",
 			"unlockedChest": "You unlocked {0} and viewed its contents.",
-			"unlockedTime": "알게된 순",
+			"unlockedTime": "알게된 순 (기본)",
 			"unpurifiedFreshWater": "unpurified fresh water",
 			"unpurifiedWaterInStill": "정화되지 않은 물이 들어있습니다.",
 			"usingBareHands": "{0}을(를) 손으로 하다가",
